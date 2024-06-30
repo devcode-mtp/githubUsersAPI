@@ -16,8 +16,6 @@ export default function App() {
   const dispatch = useDispatch()
   const users = useSelector(state => state.users)
 
-  console.log(users.hasError);
-
   return (
     <div className="flex flex-col min-h-screen bg-slate-400/10">
       <Header />
